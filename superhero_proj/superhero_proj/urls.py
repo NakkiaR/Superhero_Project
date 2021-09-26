@@ -23,3 +23,4 @@ urlpatterns = [
     path('superheroes/', include('superheroes.urls')),
     path('', RedirectView.as_view(url='/superheroes/'))
 ]
+
